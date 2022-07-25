@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{font-family:sans-serif} 
+            button {background-color: cornsilk;} 
+        </style>
+        <script>
+            function load_image(element_name,image_file){
+                document.getElementById(element_name).innerHTML="<img src='"+image_file+"' width='275' height='300' >";    
+            }
+        </script>
+    </head>
+    <body>
+        <h1>My first JavaScript experiment</h1>
+        <button type="button"
+        onclick="load_image('demo','sashimi-c123df7.jpg')">Click for fish</button>
+        <button type="button"
+        onclick="load_image('demo2','totoroimage.jpg')">Click for totoro</button>
+        </button>
+<span id="demo"></span>
+<span id="demo2"></span>
+    </body>
+</html> 
